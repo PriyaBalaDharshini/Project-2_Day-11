@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inspiration&family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    background-color: white;
+}
+
+#header_name {
+    font-family: Garamond;
+    color: rgb(255, 174, 0);
+    margin: 15px 25px;
+}
+
+#header_para {
+    font-family: poppins;
+    margin-top: 20px;
+
+}
+
+.fa-map-marker,
+.fa-search {
+    color: rgb(255, 174, 0);
+}
+
+.header_col {
+    margin: 15px 0;
+    font-family: poppins;
+
+}
+
+.header_span {
+    margin-left: 20px;
+}
+
+/*  */
+.body_one {
+    background-color: rgb(248, 194, 79);
+    padding: 80px 0 60px 80px;
+}
+
+#meals {
+    font-family: cursive;
+    color: white;
+    margin-bottom: 25px;
+}
+
+#meals_para {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-outline-warning {
+    background-color: rgb(250, 191, 181);
+    color: rgb(252, 104, 78);
+
+}
+
+.pick {
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.btn-danger {
+    padding-right: 20px;
+    margin-right: 8px;
+
+}
+
+/*  */
+
+.body_two>.container>.row {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .body_two {
+
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+/*  */
+.body_three,
+.body_five,
+.body_six,
+.body_seven {
+    background-color: white;
+
+}
+
+.body_three_div {
+    margin-left: 60px;
+    padding-top: 60px;
+    text-align: center;
+
+}
+
+#work {
+    color: rgba(255, 149, 0, 0.783);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box_div {
+    display: flex;
+    margin-top: 50px;
+    align-content: center;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 80px;
+}
+
+.fa-3x {
+    color: rgba(255, 149, 0, 0.783);
+}
+
+.body_four {
+    background-color: rgb(223, 221, 221);
+    padding: 50px 0 60px;
+
+}
+
+.body_four>.container>.row,
+.body_six>.container>.row,
+.body_seven>.container>.row {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#search {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.body_five {
+    padding: 100px;
+}
+
+.container_five {
+    margin-left: 50px;
+}
+
+.col-sm-7 {
+    margin-left: 100px;
+    padding-left: 200px;
+}
+
+#five_div {
+    padding-top: 50px;
+}
+
+.body_six>.container>.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body_seven>.container>.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    background-color: black;
+    padding: 60px;
+
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color: lightblue;
+    }
+}
